@@ -1,0 +1,11 @@
+{
+  "loading": "Nalaganje...",
+  "openWebsite": "Odpri spletno stran",
+  "saveDrawing": "Shrani risbo",
+  "exportPng": "Izvozi PNG v mapo",
+  "exportSvg": "Izvozi SVG v mapo",
+  "title": "Excalidraw",
+  "drawingFile": "Risba Excalidraw",
+  "pngImage": "Slika PNG",
+  "svgImage": "Slika SVG"
+}

@@ -1,0 +1,11 @@
+{
+  "loading": "加载中...",
+  "openWebsite": "打开网站",
+  "saveDrawing": "保存绘图",
+  "exportPng": "导出 PNG 到文件夹",
+  "exportSvg": "导出 SVG 到文件夹",
+  "title": "Excalidraw",
+  "drawingFile": "Excalidraw 绘图",
+  "pngImage": "PNG 图像",
+  "svgImage": "SVG 图像"
+}

@@ -1,0 +1,11 @@
+{
+  "loading": "Загрузка...",
+  "openWebsite": "Открыть сайт",
+  "saveDrawing": "Сохранить рисунок",
+  "exportPng": "Экспорт PNG в папку",
+  "exportSvg": "Экспорт SVG в папку",
+  "title": "Excalidraw",
+  "drawingFile": "Рисунок Excalidraw",
+  "pngImage": "Изображение PNG",
+  "svgImage": "Изображение SVG"
+}
