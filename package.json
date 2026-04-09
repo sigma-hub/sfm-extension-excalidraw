@@ -22,12 +22,6 @@
   "categories": [
     "Productivity"
   ],
-  "tags": [
-    "excalidraw",
-    "drawing",
-    "whiteboard",
-    "diagram"
-  ],
   "extensionType": "api",
   "main": "index.js",
   "icon": "icon.png",
