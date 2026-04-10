@@ -1,11 +1,7 @@
 {
   "loading": "Загрузка...",
   "openWebsite": "Открыть сайт",
-  "saveDrawing": "Сохранить рисунок",
-  "exportPng": "Экспорт PNG в папку",
-  "exportSvg": "Экспорт SVG в папку",
-  "title": "Excalidraw",
-  "drawingFile": "Рисунок Excalidraw",
-  "pngImage": "Изображение PNG",
-  "svgImage": "Изображение SVG"
+  "openPage": "Открыть Excalidraw",
+  "openPageDescription": "Открыть вид рисования Excalidraw",
+  "title": "Excalidraw"
 }

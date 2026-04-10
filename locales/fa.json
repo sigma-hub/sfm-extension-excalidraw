@@ -1,11 +1,7 @@
 {
   "loading": "در حال بارگذاری...",
   "openWebsite": "باز کردن وب‌سایت",
-  "saveDrawing": "ذخیره طرح",
-  "exportPng": "صادر کردن PNG به پوشه",
-  "exportSvg": "صادر کردن SVG به پوشه",
-  "title": "Excalidraw",
-  "drawingFile": "طرح Excalidraw",
-  "pngImage": "تصویر PNG",
-  "svgImage": "تصویر SVG"
+  "openPage": "باز کردن Excalidraw",
+  "openPageDescription": "باز کردن نمای طراحی Excalidraw",
+  "title": "Excalidraw"
 }

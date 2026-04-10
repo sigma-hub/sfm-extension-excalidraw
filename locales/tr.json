@@ -1,11 +1,7 @@
 {
   "loading": "Yükleniyor...",
   "openWebsite": "Web sitesini aç",
-  "saveDrawing": "Çizimi kaydet",
-  "exportPng": "PNG'yi klasöre dışa aktar",
-  "exportSvg": "SVG'yi klasöre dışa aktar",
-  "title": "Excalidraw",
-  "drawingFile": "Excalidraw çizimi",
-  "pngImage": "PNG görüntüsü",
-  "svgImage": "SVG görüntüsü"
+  "openPage": "Excalidraw'ı aç",
+  "openPageDescription": "Excalidraw çizim görünümünü aç",
+  "title": "Excalidraw"
 }

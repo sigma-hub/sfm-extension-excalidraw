@@ -1,5 +1,5 @@
 import { build } from 'esbuild';
-import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -69,11 +69,10 @@ async function runBuild() {
   await mkdir(generatedDir, { recursive: true });
   await writeFile(generatedCssPath, `export default ${JSON.stringify(excalidrawCss)};\n`);
 
-  await rm(distDir, { recursive: true, force: true });
   await mkdir(distDir, { recursive: true });
 
   await build({
-    entryPoints: [path.join(extensionRoot, 'src', 'embed-runtime.js')],
+    entryPoints: [path.join(extensionRoot, 'src', 'embed-runtime.tsx')],
     outfile: path.join(distDir, 'embed.js'),
     bundle: true,
     format: 'esm',

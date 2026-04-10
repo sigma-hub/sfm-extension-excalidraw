@@ -1,11 +1,7 @@
 {
   "loading": "Đang tải...",
   "openWebsite": "Mở trang web",
-  "saveDrawing": "Lưu bản vẽ",
-  "exportPng": "Xuất PNG vào thư mục",
-  "exportSvg": "Xuất SVG vào thư mục",
-  "title": "Excalidraw",
-  "drawingFile": "Bản vẽ Excalidraw",
-  "pngImage": "Hình ảnh PNG",
-  "svgImage": "Hình ảnh SVG"
+  "openPage": "Mở Excalidraw",
+  "openPageDescription": "Mở chế độ vẽ Excalidraw",
+  "title": "Excalidraw"
 }

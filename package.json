@@ -9,24 +9,32 @@
   },
   "repository": "https://github.com/sigma-hub/sfm-extension-excalidraw",
   "license": "MIT",
-  "files": [
-    "dist",
-    "icon.png",
-    "index.js",
-    "locales",
-    "README.md"
-  ],
   "scripts": {
-    "build": "node scripts/build.mjs"
+    "build": "tsc --noEmit && tsc -p tsconfig.build.json && node scripts/build.mjs",
+    "prepare": "npm run build"
   },
   "categories": [
     "Productivity"
   ],
   "extensionType": "api",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/index.js",
   "icon": "icon.png",
+  "media": [
+    {
+      "title": "Canvas",
+      "src": "preview-1.jpg",
+      "type": "image"
+    },
+    {
+      "title": "Export",
+      "src": "preview-2.jpg",
+      "type": "image"
+    }
+  ],
   "permissions": [
     "sidebar",
+    "commands",
     "dialogs",
     "clipboard",
     "fs.write",
@@ -38,16 +46,30 @@
     "onStartup",
     "onUpdate",
     "onEnable",
-    "onDisable"
+    "onDisable",
+    "onCommand:sigma.excalidraw.openPage"
   ],
+  "contributes": {
+    "commands": [
+      {
+        "id": "openPage",
+        "title": "Open Excalidraw",
+        "description": "Open Excalidraw extension view",
+        "shortcut": "Ctrl+Shift+E"
+      }
+    ]
+  },
   "engines": {
     "sigmaFileManager": ">=2.0.0"
   },
   "devDependencies": {
     "@excalidraw/excalidraw": "^0.18.0",
-    "@sigma-file-manager/api": "^1.2.0",
+    "@sigma-file-manager/api": "^1.5.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "esbuild": "^0.27.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "typescript": "~5.8.0"
   }
 }

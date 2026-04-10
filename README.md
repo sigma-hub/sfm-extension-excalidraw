@@ -1,14 +1,11 @@
 # Excalidraw - Sigma File Manager Extension
 
-Open Excalidraw, a virtual whiteboard for sketching hand-drawn diagrams, in Sigma File Manager.
+Virtual whiteboard for sketching hand-drawn like diagrams.
 
-## Features
-
-- Adds a button to the nav sidebar
-- Opens Excalidraw in a full-size iframe within the app
-- Keeps the drawing session alive when switching between pages
+![preview-1](./preview-1.png)
 
 ## Usage
 
-1. Install the extension from the Extensions marketplace
-2. Click the Excalidraw button in the nav sidebar (below the main navigation)
+1. Click the Excalidraw button in the nav sidebar to open extension view
+2. Draw
+3. Click left top menu to save / export / load, etc.
