@@ -2,7 +2,7 @@
 
 Virtual whiteboard for sketching hand-drawn like diagrams.
 
-![preview-1](./preview-1.png)
+![preview-1](./preview-1.jpg)
 
 ## Usage
 
