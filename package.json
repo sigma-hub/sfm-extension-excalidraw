@@ -10,7 +10,7 @@
   "repository": "https://github.com/sigma-hub/sfm-extension-excalidraw",
   "license": "MIT",
   "scripts": {
-    "build": "tsc --noEmit && tsc -p tsconfig.build.json && node scripts/build.mjs",
+    "build": "node scripts/generate-excalidraw-css.mjs && tsc --noEmit && tsc -p tsconfig.build.json && node scripts/build.mjs",
     "prepare": "npm run build"
   },
   "categories": [
